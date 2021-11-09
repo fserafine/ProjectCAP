@@ -1,11 +1,12 @@
--- Main view for import into Python.
--- Nibrs_incident and nibrs_incident_addl are main tables.
-
-CREATE VIEW crimepred AS
+CREATE VIEW 
+    crimepred 
+AS
 
 SELECT
     i.incident_id as "Incident ID",
     o.offense_id as "Offense ID",
+	vo.victim_id as "Victim ID",
+	od.offender_id as "Offender ID",
     i.incident_date as "Date",
     i.incident_hour as "Hour",
     ot.offense_name as "Offense",
@@ -40,6 +41,8 @@ UNION ALL
 SELECT
     i.incident_id as "Incident ID",
     o.offense_id as "Offense ID",
+	vo.victim_id as "Victim ID",
+	od.offender_id as "Offender ID",
     i.incident_date as "Date",
     i.incident_hour as "Hour",
     ot.offense_name as "Offense",
