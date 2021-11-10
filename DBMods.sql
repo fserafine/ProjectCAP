@@ -61,6 +61,67 @@ UPDATE nibrs_offender_addl
         FROM ref_race 
         WHERE ref_race.race_id = nibrs_offender_addl.race_id);
 
+-- Add ethnicity column to victim and offender info tables and populate it
+
+ALTER TABLE 
+    nibrs_victim 
+ADD COLUMN 
+    ethnicity text;
+ALTER TABLE 
+    nibrs_victim_addl 
+ADD COLUMN 
+ethnicity text;
+ALTER TABLE 
+    nibrs_offender 
+ADD COLUMN 
+    ethnicity text;
+ALTER TABLE 
+    nibrs_offender_addl 
+ADD COLUMN 
+    ethnicity text;
+
+UPDATE 
+    nibrs_victim
+SET 
+    ethnicity = 
+        (SELECT ethnicity_name 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_victim.ethnicity_id) 
+    WHERE ethnicity_id IN 
+        (SELECT ethnicity_id 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_victim.ethnicity_id);
+
+UPDATE nibrs_victim_addl 
+    SET ethnicity = 
+        (SELECT ethnicity_name 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_victim_addl.ethnicity_id) 
+    WHERE ethnicity_id IN 
+        (SELECT ethnicity_id 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_victim_addl.ethnicity_id);
+
+UPDATE nibrs_offender
+    SET ethnicity = 
+        (SELECT ethnicity_name 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_offender.ethnicity_id) 
+    WHERE ethnicity_id IN 
+        (SELECT ethnicity_id 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_offender.ethnicity_id);
+
+UPDATE nibrs_offender_addl 
+    SET ethnicity = 
+        (SELECT ethnicity_name 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_offender_addl.ethnicity_id) 
+    WHERE ethnicity_id IN 
+        (SELECT ethnicity_id 
+        FROM nibrs_ethnicity 
+        WHERE nibrs_ethnicity.ethnicity_id = nibrs_offender_addl.ethnicity_id);
+
 -- Modify incident_date string from nibrs_incident_addl to be recognizable timestamp
 
 UPDATE nibrs_incident_addl 
