@@ -1,4 +1,4 @@
-# Crime Prediction with Machine Learning
+# Project CAP - Crime Analysis & Prediction
 ## Author: Frank Serafine | README
 
 Using publicly-available crime data from the FBI, this project aimed to train several machine learning models to be able to predict crime data for a given year.
