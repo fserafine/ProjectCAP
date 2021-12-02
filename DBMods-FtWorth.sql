@@ -1,6 +1,7 @@
--- Add race column to bring in demographic information to victims and offenders
+-- PROJECT CAP Database Modifications Logfile
+-- The following are steps taken to transform the raw NIBRS data into usable clean data.
 
--- COME BACK AND MAKE ALL THESE SQL LINES INDENTED LIKE THE FOLLOWING:
+-- Add race column to bring in demographic information to victims and offenders
 
 ALTER TABLE 
     nibrs_victim 
