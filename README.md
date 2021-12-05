@@ -29,7 +29,7 @@ By providing a well-researched estimate for whether or not a given time frame's 
 ### Step 1: Clone this repo to your local machine
 
 ```bash
-git clone https://github.com/fserafine/ProjectCAP
+git clone https://github.com/fserafine/ProjectCAP.git
 ```
 
 ### Step 2: Create the environment
@@ -51,7 +51,7 @@ The database I constructed in SQLite from the FBI's provided CSV files can be do
 
 ### Step 4: Open the Jupyter notebook
 
-In [03. CrimePred.ipynb](https://github.com/fserafine/ProjectCAP/blob/main/03.%20CrimePred.ipynb), I inspect the data and aggregate to daily crime level counts and sums depending on the feature and walk through the process of modeling, documenting the work each step of the way.
+In [03. CrimePred.ipynb](https://github.com/fserafine/ProjectCAP/blob/main/03.%20CrimePred.ipynb), I inspect the data, aggregate it to daily crime level counts and sums (depending on the feature), and walk through the process of modeling, documenting the work each step of the way.
 
 ---
 
