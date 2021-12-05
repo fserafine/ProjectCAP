@@ -61,4 +61,6 @@ Additional files exist in this repo serve to highlight the work that went in to 
 
 In [01. EDA.md](https://github.com/fserafine/ProjectCAP/blob/main/01.%20EDA.md), I explain the compiling and preparing of the SQLite database and elaborate on my modifications and preprocessing of the imported data in [02. DBMods-FtWorth.sql](https://github.com/fserafine/ProjectCAP/blob/main/02.%20DBMods-FtWorth.sql).
 
+Although I give an option to pickle the models for further use in cells within the Jupyter notebook, a .zip file containing the exported model pickles can be downloaded [here](https://drive.google.com/file/d/1sDOPOZjFILW5OE1am9TLe2-yXcO3G0cF/view?usp=sharing) and is around 84 MB zipped, 162 MB unzipped.
+
 Lastly, also included are several Tableau workbooks with data extracts (.hyper files) that contain my interactive dashboards and worksheets exploring the dataset.
