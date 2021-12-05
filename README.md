@@ -60,3 +60,5 @@ In [03. CrimePred.ipynb](https://github.com/fserafine/ProjectCAP/blob/main/03.%2
 Additional files exist in this repo serve to highlight the work that went in to the project and detail the results.
 
 In [01. EDA.md](https://github.com/fserafine/ProjectCAP/blob/main/01.%20EDA.md), I explain the compiling and preparing of the SQLite database and elaborate on my modifications and preprocessing of the imported data in [02. DBMods-FtWorth.sql](https://github.com/fserafine/ProjectCAP/blob/main/02.%20DBMods-FtWorth.sql).
+
+Lastly, also included are several Tableau workbooks with data extracts (.hyper files) that contain my interactive dashboards and worksheets exploring the dataset.
