@@ -18,7 +18,7 @@ By providing a well-researched estimate for whether or not a given time frame's 
 
 **PROJECT DATA SOURCE:** FBI's [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/pages/downloads) CSV downloads
 
-**DATA FLOW:** Data Source >> [SQL db](https://drive.google.com/file/d/1Q7emKSnD8K-WJrrnZW410LEhxlXoYg63/view?usp=sharing) >> [Python/Jupyter Notebook](https://github.com/fserafine/CrimePrediction/blob/main/03.%20CrimePred.ipynb)
+**DATA FLOW:** Data Source >> [SQL db](https://drive.google.com/file/d/1Q7emKSnD8K-WJrrnZW410LEhxlXoYg63/view?usp=sharing) >> [Python/Jupyter Notebook](https://github.com/fserafine/ProjectCAP/blob/main/03.%20CrimePred.ipynb)
 
 **SUPPORTING VISUALIZATIONS:** Three Tableau Public dashboards showcasing the project's EDA can be viewed [here](https://public.tableau.com/app/profile/frank.serafine/viz/ProjectCAP-Ft_WorthCrimeStats3Dashboards/CrimeLevelsDemographics-Ft_Worth) and one showcasing the final averaged predictions of three ML time series models can be viewed [here](https://public.tableau.com/app/profile/frank.serafine/viz/ProjectCAP-MLPredictions/MachineLearningPredictionsvsActual)
 
@@ -47,7 +47,7 @@ The database I constructed in SQLite from the FBI's provided CSV files can be do
 
 ### Step 4: Open the Jupyter notebook
 
-In [03. CrimePred.ipynb](https://github.com/fserafine/CrimePrediction/blob/main/03.%20CrimePred.ipynb), I inspect the data and aggregate to daily crime level counts and sums depending on the feature and walk through the process of modeling, documenting the work each step of the way.
+In [03. CrimePred.ipynb](https://github.com/fserafine/ProjectCAP/blob/main/03.%20CrimePred.ipynb), I inspect the data and aggregate to daily crime level counts and sums depending on the feature and walk through the process of modeling, documenting the work each step of the way.
 
 ---
 
@@ -55,4 +55,4 @@ In [03. CrimePred.ipynb](https://github.com/fserafine/CrimePrediction/blob/main/
 
 Additional files exist in this repo serve to highlight the work that went in to the project and detail the results.
 
-In [01. EDA.md](https://github.com/fserafine/CrimePrediction/blob/main/01.%20EDA.md), I explain the compiling and preparing of the SQLite database and elaborate on my modifications and preprocessing of the imported data in [02. DBMods-FtWorth.sql](https://github.com/fserafine/CrimePrediction/blob/main/02.%20DBMods-FtWorth.sql).
+In [01. EDA.md](https://github.com/fserafine/ProjectCAP/blob/main/01.%20EDA.md), I explain the compiling and preparing of the SQLite database and elaborate on my modifications and preprocessing of the imported data in [02. DBMods-FtWorth.sql](https://github.com/fserafine/ProjectCAP/blob/main/02.%20DBMods-FtWorth.sql).
