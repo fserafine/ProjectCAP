@@ -1,6 +1,8 @@
-*.zip
 *.png
 /TX
 *.csv
 *.db
 *.sqbpro
+PCap_VAR_pkl
+PCap_Sari_pkl
+PCap_Prophet_pkl
