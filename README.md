@@ -28,6 +28,10 @@ By providing a well-researched estimate for whether or not a given time frame's 
 
 ### Step 1: Clone this repo to your local machine
 
+```bash
+git clone https://github.com/fserafine/ProjectCAP
+```
+
 ### Step 2: Create the environment
 
 The Anaconda environment I used can be installed easily after downloading `crime_pred_env.txt` and issuing the following command to Anaconda in a terminal:
