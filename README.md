@@ -10,7 +10,7 @@
 
 Model time series data to predict crime activity over a split of years, given years of history, in order to establish a predictable "expected" crime level measurement that is responsive to seasonal trends. From this, abnormalities can be classified and contextualized through supporting visualization.
 
-**BUSINESS USE CASE:** Specifically, this is a way for journalistic outlets and citizens of Forth Worth alike to get real context about the state of crime around them and interact with information normally taken for granted or only hypothesized.  
+**BUSINESS USE CASE:** Specifically, this is a way for both journalistic outlets and the populace alike to obtain informed context about the state of crime around them and interact with information normally taken for granted or only hypothesized.  
 
 Generalized, if this analysis is performed on a statewide or nationwide level, it will provide an educated lens through which to view crime in society.
 
