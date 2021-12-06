@@ -40,6 +40,8 @@ The Anaconda environment I used can be installed easily after downloading `crime
 conda create -n crime_pred --file crime_pred_env.txt
 ```
 
+I used Python 3.8.12 for this project.
+
 It is also recommended to install a kernel for the Jupyter notebook with the following:
 
 ```bash
