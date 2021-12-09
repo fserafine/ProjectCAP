@@ -6,9 +6,9 @@
 
 ---
 
-## STATEMENT OF GOAL
+## SUMMARY
 
-Analyze and model time series data to predict crime activity over two years, given eight years of history, in order to establish an "expected" crime level measurement that is responsive to seasonal trends and generalizes well. From this, classify the crime levels of the predicted range as normal or abnormal.
+**GOAL:** Analyze and model time series data to predict crime activity over two years, given eight years of history, in order to establish an "expected" crime level measurement that is responsive to seasonal trends and generalizes well. From this, classify the crime levels of the predicted range as normal or abnormal.
 
 **BUSINESS USE CASE:** Specifically, this is a way for journalists, the media at large, and citizens alike to obtain an informed view of the crime activity around them and interact with information normally taken for granted or assumed on a shallow level.
 
