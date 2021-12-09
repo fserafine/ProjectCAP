@@ -8,19 +8,21 @@
 
 ## STATEMENT OF GOAL
 
-Model time series data to predict crime activity over a split of years, given years of history, in order to establish a predictable "expected" crime level measurement that is responsive to seasonal trends. From this, abnormalities can be classified and contextualized through supporting visualization.
+Analyze and model time series data to predict crime activity over two years, given eight years of history, in order to establish an "expected" crime level measurement that is responsive to seasonal trends and generalizes well. From this, classify the crime levels of the predicted range as normal or abnormal.
 
-**BUSINESS USE CASE:** Specifically, this is a way for both journalistic outlets and the populace alike to obtain informed context about the state of crime around them and interact with information normally taken for granted or only hypothesized.  
+**BUSINESS USE CASE:** Specifically, this is a way for journalists, the media at large, and citizens alike to obtain an informed view of the crime activity around them and interact with information normally taken for granted or assumed on a shallow level.
 
-Generalized, if this analysis is performed on a statewide or nationwide level, it will provide an educated lens through which to view crime in society.
+Generalized, if this analysis is performed on a statewide or nationwide level, it will provide an educated lens through which to view crime in society. The focus for the project is on ___Fort Worth, TX___, but the process could be applied to any city to get local insights.
 
-By providing a well-researched estimate for whether or not a given time frame's actual crime levels are abnormal, even law enforcement could use it to strategize opportunities, plan resource allocation, or classify times of relative success. 
+By providing a well-researched estimate for whether or not a given time period's actual crime levels are abnormal, even law enforcement could use it to strategize opportunities, plan resource allocation, or classify times of relative success. 
 
 **PROJECT DATA SOURCE:** FBI's [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/pages/downloads) CSV downloads
 
 **DATA FLOW:** Data Source >> [SQL db](https://drive.google.com/file/d/1Q7emKSnD8K-WJrrnZW410LEhxlXoYg63/view?usp=sharing) >> [Python/Jupyter Notebook](https://github.com/fserafine/ProjectCAP/blob/main/03.%20CrimePred.ipynb)
 
 **SUPPORTING VISUALIZATIONS:** Three Tableau Public dashboards showcasing the project's EDA can be viewed [here](https://public.tableau.com/app/profile/frank.serafine/viz/ProjectCAP-Ft_WorthCrimeStats3Dashboards/CrimeLevelsDemographics-Ft_Worth) and one showcasing the final averaged predictions of three ML time series models can be viewed [here](https://public.tableau.com/app/profile/frank.serafine/viz/ProjectCAP-MLPredictions/MachineLearningPredictionsvsActual)
+
+**OUTCOME:** Classifications were made by using the metric of two standard deviations away from the mean of the machine learning ensemble's predicted crime levels, allowing me to classify 2018-2019 crime levels as __74% abnormal__, with 68% of that being ___abnormally low___ crime.
 
 ---
 
