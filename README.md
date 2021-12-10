@@ -8,7 +8,7 @@
 
 ## SUMMARY
 
-**GOAL:** Analyze and model time series data to predict crime activity over two years, given eight years of history, in order to establish an "expected" crime level measurement that is responsive to seasonal trends and generalizes well. From this, classify the crime levels of the predicted range as normal or abnormal.
+**GOAL:** Analyze and model time series data to predict crime activity over two years, given eight years of history, in order to establish an "expected" crime level measurement that is responsive to seasonal trends and generalizes well. From this, classify the actual crime levels of the predicted range as normal or abnormal.
 
 **BUSINESS USE CASE:** Specifically, this is a way for journalists, the media at large, and citizens alike to obtain an informed view of the crime activity around them and interact with information normally taken for granted or assumed on a shallow level.
 
@@ -26,7 +26,7 @@ By providing a well-researched estimate for whether or not a given time period's
 
 ---
 
-## SIMPLE SETUP 
+## REPRODUCE/IMPROVE MY WORK
 
 ### Step 1: Clone this repo to your local machine
 
@@ -67,4 +67,4 @@ In [01. EDA.md](https://github.com/fserafine/ProjectCAP/blob/main/01.%20EDA.md),
 
 Although I give an option to pickle the models for further use in cells within the Jupyter notebook, a .zip file containing the exported model pickles can be downloaded [here](https://drive.google.com/file/d/1sDOPOZjFILW5OE1am9TLe2-yXcO3G0cF/view?usp=sharing) and is around 84 MB zipped, 162 MB unzipped.
 
-Lastly, also included are several Tableau workbooks with data extracts (.hyper files) that contain my interactive dashboards and worksheets exploring the dataset.
+Lastly, also included are several optional Tableau workbooks with data extracts (.hyper files) that contain my interactive dashboards and worksheets exploring the dataset. Please note that the dashboards containing the worksheets are all publicly available for you to interact with on Tableau
