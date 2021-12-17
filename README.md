@@ -51,7 +51,7 @@ ipython kernel install --name "crime_pred" --user
 ```
 ### Step 3: Get the database
 
-The database I constructed in SQLite from the FBI's provided CSV files can be downloaded [from this link](https://drive.google.com/file/d/1Q7emKSnD8K-WJrrnZW410LEhxlXoYg63/view?usp=sharing), and is approximately 630 MB zipped / 2.6 GB unzipped. Unzip it to the same local directory where you've cloned this repository, as it is needed for the Jupyter notebook.
+The database I constructed in SQLite from the FBI's provided CSV files can be downloaded [from this link](https://drive.google.com/file/d/1Q7emKSnD8K-WJrrnZW410LEhxlXoYg63/view?usp=sharing), and is approximately 600 MB zipped / 2.5 GB unzipped. Unzip it to the same local directory where you've cloned this repository, as it is needed for the Jupyter notebook.
 
 ### Step 4: Open the Jupyter notebook
 
@@ -67,4 +67,4 @@ In [01. EDA.md](https://github.com/fserafine/ProjectCAP/blob/main/01.%20EDA.md),
 
 Although I give an option to pickle the models for further use in cells within the Jupyter notebook, a .zip file containing the exported model pickles can be downloaded [here](https://drive.google.com/file/d/1sDOPOZjFILW5OE1am9TLe2-yXcO3G0cF/view?usp=sharing) and is around 84 MB zipped, 162 MB unzipped.
 
-Lastly, also included are several optional Tableau workbooks with data extracts (.hyper files) that contain my interactive dashboards and worksheets exploring the dataset. Please note that the dashboards containing the worksheets are all publicly available for you to interact with on Tableau
+Lastly, also included are several optional Tableau workbooks with data extracts (.hyper files) that contain my interactive dashboards and worksheets exploring the dataset. Please note that the dashboards containing the worksheets are all publicly available for you to interact with on Tableau.
